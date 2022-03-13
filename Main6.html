@@ -717,9 +717,9 @@ And please click on login button to open Homework which mam send. tell your name
 <td>Kapil bisht</td>
 <td><button STYLE="height:100px; width:600px; background-color:aqua; color:white; border:0; margin-top:20px; font-size:45; font-family:arial ; box-shadow:10px 10px lightgreen">Whatsapp (harihar nautiyal)<BUTTON>
  <audio id="myAudio" controls autoplay>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
+  <source src="bg.ogg" type="audio/ogg">
+  <source src="bg.mp3" type="audio/mpeg">
+  
 </audio>
 </td>
 </tr>
@@ -740,7 +740,10 @@ And please click on login button to open Homework which mam send. tell your name
 		function myFunction(){
 			preloader.style.display = 'none';
 		};
-		
+	function myFunction1() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
+}	
 	</script>
 	<script type="module">
   // Import the functions you need from the SDKs you need
