@@ -1,0 +1,103 @@
+ <html>
+
+<head>
+
+   <title>Test Password</title>
+
+   <style type="text/css">
+
+     body,html{
+
+       text-align: CENTER;
+
+       justify-content: CENTER;
+
+       align-content: center;
+
+       align-self: center;
+
+     
+
+     }
+
+     .box1{
+
+      height:100px; width:600px; background-color:aqua; color:white; border:0; margin-top:20px; font-size:45; font-family:arial ; box-shadow:10px 10px lightgreen; position: relative;
+
+       
+
+     
+
+     }
+
+     .img1{
+
+     
+
+            height:100px; width:100px; background-color:aqua; color:white; border:0; margin-top:20px; font-size:45; font-family:arial ; box-shadow:10px 10px lightgreen; position: relative;
+
+       
+
+     }
+
+     .head{
+
+       font-family: arial;
+
+       font-size: 50;
+
+       
+
+        text-shadow:10px 10px lightgreen;
+
+     }
+
+   </style>
+
+   
+
+   
+
+<h1 class="head">dialpassword</h1>
+
+ </head>
+
+ <body>
+
+<form class="passform" action="main6.html" onsubmit="return passcheck()">
+
+<div></div>
+
+ <input type="password" required id="pass1" class="box1">
+
+<button type="submit" class="img1" >Go</button>
+
+</form>
+
+<script>
+
+var password = "12345";
+
+function passcheck() {
+
+ if (document.getElementById('pass1').value != password) {
+
+alert('Wrong Password, Try Again.');
+
+ return false;
+
+}
+
+if (document.getElementById('pass1').value == password) {
+
+ alert('Correct Password click OK to enter Webpage.');
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
