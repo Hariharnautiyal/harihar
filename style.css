@@ -1,0 +1,260 @@
+*{
+box-sizing:border-box ;
+}
+body {margin:0;font-family:Arial;
+min-height: 100vh;
+width: 100%;
+  background:#fff url(bggif/rhombus.gif)center;
+  background-size: 5%;
+   background-attachment: fixed;
+  display:inline-block;
+  
+}
+.lol{
+background-color: #fff;
+opacity: 1;
+background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(225deg, aqua 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(315deg, aqua 25%, transparent 25%) 0px 0/ 22px 22px, linear-gradient(45deg, aqua 25%, #fff 25%) 0px 0/ 22px 22px;
+ 
+ background-attachment: fixed;
+  display:inline-block;
+}
+
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #1d1f38
+	url(https://cdn.dribbble.com/users/1299339/screenshots/11116681/media/79bf1ac602445860e4a44bcd4bf80704.gif)
+	 no-repeat center center;	
+	background-size: 50%;
+	z-index: 99999;
+}
+
+.topnav {
+  overflow: hidden;
+  opacity: 1;
+background: linear-gradient(135deg, lightgreen 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(225deg, lightgreen 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(315deg, lightgreen 25%, transparent 25%) 0px 0/ 22px 22px, linear-gradient(45deg, lightgreen 25%, #fff 25%) 0px 0/ 22px 22px;
+ 
+
+  font-family:'Inspiration', cursive ;
+position:fixed;
+width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: aqua;
+  border: 1px solid #fff;
+  color:#000;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #fff;
+  color:black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.banner{
+  height: 250px;
+  width: 100%;
+  background: #000 url(https://exploringbits.com/wp-content/uploads/2022/01/discord-banner-4.gif) no-repeat center;
+background-size: 100%;
+  color: #fff;
+  font-family: 'Hurricane', cursive;
+  font-size: 50;
+  align-items: center;
+  justify-content:center ;
+  display:flex;
+  margin-top: 50px;
+  border:5px solid #fff;
+}
+
+.edub{
+  height: 300px;
+  width: 100%;
+  background: #fff url(https://media-exp1.licdn.com/dms/image/C4D0BAQFtsQK__PWuNg/company-logo_100_100/0/1608105650432?e=1655942400&v=beta&t=u77Ip9l_cojRaq4vge5v8CkbleJ0fbgSWgbojzGBrOc) no-repeat center;
+background-size: 40%;
+  color: #000;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30;
+  
+  
+  display:flex;
+  margin-top: 100px;
+  border: 5px solid aqua;
+}
+.bu{
+  position: static;
+ border: 0;
+ font-size: 3vw;
+ background:#fff url(bggif/book.gif) center no-repeat;
+ border:2px solid aqua;
+ min-height:auto;
+ min-width:auto;
+}
+.game{
+ 
+  height: 300px;
+  width: 100%;
+  background: #000 url( https://i.giphy.com/media/34808GtkRWAoGQuqdZ/giphy.webp) no-repeat center;
+background-size: 70%;
+  color: #000;
+  font-family: 'Hurricane', cursive;
+  font-size: 7vw;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display:flex;
+  margin-top: 100px;
+  border: 5px solid #fff;
+  
+}
+.Hide{
+  min-height="50px"
+  width: 100%;
+  background: black;
+}
+.button1{
+	float:center;
+	background:transparent;
+	border:2px solid aqua;
+	min-height:70px ;
+	min-width:100px ;
+	color:#fff;
+	font-size:3vw;
+	margin:10px;
+		font-family="arial"
+}
+.button2{
+	float:center;
+	background:transparent;
+	border:2px solid lightgreen;
+	min-height:70px ;
+	min-width:100px ;
+	color:#fff;
+	font-size:3vw;
+	margin:10px;
+	font-family="arial"
+}
+#button3{
+	float:center;
+	background:transparent;
+	border:2px solid red;
+	min-height:70px ;
+	min-width:100px ;
+	color:#fff;
+	font-size:3vw;
+	margin:10px;
+	font-family="arial"
+}
+.homework{
+  height: 250px;
+  width: 100%;
+  background: #fff url(bggif/book.gif)  center;
+  color: #fff;
+  font-family: 'Hurricane', cursive;
+  font-size: 50;
+  
+  display:flex;
+  margin-top: 100px;
+  border:5px solid #fff;
+}
+.homhead{
+	  color:aqua;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+  font-size:4vw;
+}
+.homhead1{
+	  color:#fff;
+  font-family: 'Raleway', sans-serif;
+  font-size:4vw;
+}
