@@ -29,11 +29,13 @@ background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22p
 	 no-repeat center center;	
 	background-size: 50%;
 	z-index: 99999;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .rotate {
   animation: rotation 8s infinite linear;
+  
 }
 
 @keyframes rotation {
