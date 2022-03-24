@@ -35,7 +35,7 @@ background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22p
 }
 .rotate {
   animation: rotation 8s infinite linear;
-  
+  background-image: https://i.ibb.co/FXc1rdx/1640497073656.png;
 }
 
 @keyframes rotation {
