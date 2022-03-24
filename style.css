@@ -25,11 +25,25 @@ background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22p
 	width: 100%;
 	height: 100vh;
 	background: #1d1f38
-	url(https://cdn.dribbble.com/users/1299339/screenshots/11116681/media/79bf1ac602445860e4a44bcd4bf80704.gif)
+	url()
 	 no-repeat center center;	
 	background-size: 50%;
 	z-index: 99999;
 }
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
 
 .topnav {
   overflow: hidden;
