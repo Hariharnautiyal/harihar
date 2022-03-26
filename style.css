@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
 box-sizing:border-box ;
 }
@@ -24,21 +26,32 @@ background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22p
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background: #1d1f38
-	url()
-	 no-repeat center center;	
-	background-size: 50%;
+background: linear-gradient(135deg, lightgreen 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(225deg, lightgreen 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(315deg, lightgreen 25%, transparent 25%) 0px 0/ 22px 22px, linear-gradient(45deg, lightgreen 25%, lightyellow 25%) 0px 0/ 22px 22px;
+ 
+ font-family: 'Hurricane', cursive;
+ color:#000;
+  font-size: 7vw;
+  align-items: center;
+  justify-content:center ;
+  display:flex;
 	z-index: 99999;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	
+
 }
 .rotate {
   animation: rotation 8s infinite linear;
-  background: url(https://i.ibb.co/FXc1rdx/1640497073656.png) no-repeat center;
+ background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(225deg, aqua  25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(315deg, aqua  25%, transparent 25%) 0px 0/ 22px 22px, linear-gradient(45deg, aqua  25%, #fff 25%) 0px 0/ 22px 22px;
+ 
+  position:fixed;
   height: 200px;
   width:200px;
-  
+   font-size:5vw;
+align-items:center;
+justify-content:center;
+  display:flex;
+  border:2px solid aqua;
+  border-radius:100%;
+  color:#000;
 }
 
 @keyframes rotation {
@@ -49,9 +62,69 @@ background: linear-gradient(135deg, aqua 25%, transparent 25%) -11px 0/ 22px 22p
     transform: rotate(359deg);
   }
 }
+.rotate2 {
+  animation: rotation2 8s infinite linear;
+background:transparent;
+  position:absolute;
+  height: 400px;
+  width:400px;
+   font-size:5vw;
+align-items:center;
+justify-content:center;
+  display:flex;
+  border:2px solid #fff;
+}
 
+@keyframes rotation2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+.rotate3 {
+  animation: rotation3 8s infinite linear;
+background:transparent;
+  position:absolute;
+  height: 600px;
+  width:600px;
+   font-size:5vw;
+align-items:center;
+justify-content:center;
+  display:flex;
+  border:2px solid aqua;
+}
 
+@keyframes rotation3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.rotate4 {
+  animation: rotation4 8s infinite linear;
+background:transparent;
+  position:absolute;
+  height: 800px;
+  width:800px;
+   font-size:5vw;
+align-items:center;
+justify-content:center;
+  display:flex;
+  border:2px solid #fff;
+}
 
+@keyframes rotation4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
 .topnav {
   overflow: hidden;
   opacity: 1;
@@ -180,7 +253,7 @@ background-size: 100%;
 
 .edub{
   height: 300px;
-  width: 100%;
+  width: 90%;
   background: #fff url(https://media-exp1.licdn.com/dms/image/C4D0BAQFtsQK__PWuNg/company-logo_100_100/0/1608105650432?e=1655942400&v=beta&t=u77Ip9l_cojRaq4vge5v8CkbleJ0fbgSWgbojzGBrOc) no-repeat center;
 background-size: 40%;
   color: #000;
@@ -198,14 +271,15 @@ background-size: 40%;
  font-size: 3vw;
  background:#fff url(bggif/book.gif) center no-repeat;
  border:2px solid aqua;
- min-height:auto;
- min-width:auto;
+ height:100%;
+ width:auto;
 }
 .game{
  
   height: 300px;
-  width: 100%;
-  background: #000 url( https://i.giphy.com/media/34808GtkRWAoGQuqdZ/giphy.webp) no-repeat center;
+  width: 90%;
+  
+  background: #000 url( ) no-repeat center;
 background-size: 70%;
   color: #000;
   font-family: 'Hurricane', cursive;
@@ -257,16 +331,20 @@ background-size: 70%;
 	font-family="arial"
 }
 .homework{
-  height: 250px;
-  width: 100%;
-  background: #fff url(bggif/book.gif)  center;
+  height: 900px;
+  width: 90%;
+opacity: 1;
+background:#fff url()center;
+  background-size: 10%;
+   
+ 
   color: #fff;
   font-family: 'Hurricane', cursive;
   font-size: 50;
-  
+ text-align:general;
   display:flex;
   margin-top: 100px;
-  border:5px solid #fff;
+  border:2px solid #000;
 }
 .homhead{
 	  color:aqua;
@@ -275,7 +353,23 @@ background-size: 70%;
   font-size:4vw;
 }
 .homhead1{
-	  color:#fff;
+	  color:#000;
   font-family: 'Raleway', sans-serif;
   font-size:4vw;
+ 
+}
+.iner{
+	  
+  font-family: 'Raleway', sans-serif;
+ color:#000;
+  font-size:4vw;
+  font-weight:bold;
+  position:static;
+}
+.bgsound{
+	auto:autoplay;
+}
+.BUTTON9{
+	height:500;
+	border:2PX solid aqua
 }
