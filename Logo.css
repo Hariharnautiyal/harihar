@@ -2,9 +2,6 @@
  font-size: calc(16px + (24 - 16)*(100vw - 320px)/ (1280 - 320));
 }
 
-body, .preloader {
-  display: flex;
-}
 
 body {
   background: #000;
@@ -16,6 +13,7 @@ body {
 }
 
 .preloader {
+  display: flex;
   animation: tiltSpin 8s linear infinite;
   flex-direction: column;
   justify-content: center;
