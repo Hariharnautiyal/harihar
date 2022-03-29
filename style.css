@@ -427,6 +427,7 @@ border:2px solid #fff;
     text-decoration: none;
     padding: 8px 0;
 	font-size:1.5vw;
+	border: 0;
 }
 .bgchange{
 	height:100px;
